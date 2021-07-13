@@ -1,1 +1,2 @@
-# ahj-testing1
+# ahj-testing1 [![Build status](https://ci.appveyor.com/api/projects/status/eqv71ye64h6th6ik/branch/main?svg=true)](https://ci.appveyor.com/project/barsich/ahj-testing1/branch/main)
+[gh-pages](https://barsich.github.io/ahj-testing1/)
