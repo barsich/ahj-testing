@@ -1,5 +1,5 @@
-import CheckCardValidity from '../CheckCardValidity';
-import cards from '../../json/cards.json';
+import CheckCardValidity from '../../CheckCardValidity';
+import cards from '../../../json/cards.json'
 
 describe('card validation', () => {
   const checkCards = new CheckCardValidity(cards);
