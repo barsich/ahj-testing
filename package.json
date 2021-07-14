@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "e2e": "jest --testPathPattern=./e2e/ --runInBand"
   },
   "author": "barsich",
   "license": "ISC",
@@ -30,6 +31,7 @@
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^1.3.3",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "puppeteer": "^10.1.0",
     "terser-webpack-plugin": "^5.0.3",
     "url-loader": "^4.1.1",
     "webpack": "^5.11.1",
